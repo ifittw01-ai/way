@@ -516,31 +516,7 @@ function updateSocialMediaImage(lang) {
         twitterImage.setAttribute('content', imageUrl);
     }
     
-    // 🖼️ 更新頁面上顯示的主圖片
-    const heroImage = document.querySelector('.hero-main-image');
-    if (heroImage) {
-        heroImage.src = 'data/' + imageName;
-        console.log('✅ 已更新頁面主圖片為:', imageName);
-    }
-    
-    // 🖼️ 更新頂部圖片（top.png）
-    let topImageName;
-    if (lang === 'zh-CN') {
-        topImageName = 'topC.png';
-        console.log('✅ 匹配到簡體中文，使用頂部圖片:', topImageName);
-    } else if (lang === 'en') {
-        topImageName = 'topE.png';
-        console.log('✅ 匹配到英文，使用頂部圖片:', topImageName);
-    } else {
-        topImageName = 'top.png';
-        console.log('✅ 使用繁體中文頂部圖片:', topImageName);
-    }
-    
-    const topImage = document.querySelector('.hero-top-image');
-    if (topImage) {
-        topImage.src = 'data/' + topImageName;
-        console.log('✅ 已更新頂部圖片為:', topImageName);
-    }
+    // 僅更新社群分享圖片；頁面上的圖片不變
 }
 
 // 初始化語言
