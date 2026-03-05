@@ -4,7 +4,7 @@
 
 在浏览器中打开：
 ```
-https://script.google.com/macros/s/AKfycbw0pq-8iRPIThxKibSEuRCV6i4I-xigvVv1ZxFVOJ93_st2jaxrda4-8kE8S4iaURuy/exec?action=getRegions
+https://script.google.com/macros/s/AKfycbxx9SCezxuQoSt2HiriDfQRX4RwADQIExJm8itdU22GW_IKz2XDuyq4sDUAdOabwsXsbw/exec?action=getRegions
 ```
 
 ---
